@@ -21,16 +21,16 @@ const Index = () => {
       <main className="ml-12 px-8 md:px-16 lg:px-24 py-12">
         {/* Hero Section */}
         <section className="mb-24">
-          <h1 className="text-[10rem] md:text-[14rem] font-black gradient-text leading-none mb-4">
+          <h1 className="text-[8rem] md:text-[11rem] font-black gradient-text leading-none mb-4 animate-fade-in">
             TODOS
           </h1>
-          <div className="h-2 w-48 bg-gradient-primary rounded-full mb-12" />
+          <div className="h-2 w-48 bg-gradient-primary rounded-full mb-12 animate-pulse shadow-[0_0_20px_rgba(0,255,255,0.5)]" />
           
-          <div className="gradient-border max-w-xl p-8">
-            <h2 className="gradient-text text-2xl font-bold mb-4">
+          <div className="gradient-border max-w-xl p-8 hover:scale-[1.02] transition-transform duration-300">
+            <h2 className="gradient-text text-2xl font-extrabold mb-4">
               Todos os serviços
             </h2>
-            <p className="text-foreground leading-relaxed">
+            <p className="text-foreground leading-relaxed font-semibold">
               Lista agregada de todos os serviços da AWS; ponto de entrada para navegar, filtrar e descobrir produtos por categoria.
             </p>
           </div>
