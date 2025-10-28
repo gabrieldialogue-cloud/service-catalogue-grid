@@ -7,7 +7,7 @@ interface LetterNavProps {
 
 const LetterNav = ({ letters, onLetterClick }: LetterNavProps) => {
   return (
-    <nav className="fixed left-0 top-0 h-screen w-12 bg-card border-r-2 border-primary/30 flex flex-col items-center py-8 overflow-y-auto hide-scrollbar z-50">
+    <nav className="fixed left-0 top-0 h-screen w-12 bg-card border-r-2 border-primary/30 flex flex-col items-center justify-center overflow-y-auto hide-scrollbar z-50">
       {letters.map((letter) => (
         <button
           key={letter}
